@@ -1564,8 +1564,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <javac destdir="${classes.dir}"
            debug="${javac.debug}"
            deprecation="${javac.deprecation}"
-           fork="true"
-           memorymaximumsize="${javac.maxmemory}"
+           includeantruntime="false"
            source="${javac.source}"
            target="${javac.target}"
            encoding="UTF-8">
@@ -1774,7 +1773,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
            optimize="false"
            source="${javac.source}"
            target="${javac.target}"
-           fork="true"
+           includeantruntime="false"
            encoding="UTF-8">
       <src path="${testsrc.dir}"/>
       <classpath refid="test.classpath"/>

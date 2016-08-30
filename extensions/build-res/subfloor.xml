@@ -1564,8 +1564,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <javac destdir="${classes.dir}"
            debug="${javac.debug}"
            deprecation="${javac.deprecation}"
-           fork="true"
-           memorymaximumsize="${javac.maxmemory}"
+           includeantruntime="false"
            source="${javac.source}"
            target="${javac.target}"
            encoding="UTF-8">
@@ -1774,7 +1773,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
            optimize="false"
            source="${javac.source}"
            target="${javac.target}"
-           fork="true"
+           includeantruntime="false"
            encoding="UTF-8">
       <src path="${testsrc.dir}"/>
       <classpath refid="test.classpath"/>
@@ -2116,7 +2115,8 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <equals arg1="${junit.available}" arg2="true"/>
     <then>
     <!-- Run unit tests, adding the JaCoCo agent -->
-    <jacoco:coverage destfile="${jacoco.execfile.path}" xmlns:jacoco="antlib:org.jacoco.ant" >
+    <!--
+	<jacoco:coverage destfile="${jacoco.execfile.path}" xmlns:jacoco="antlib:org.jacoco.ant" >
 
       <junit maxmemory="${junit.maxmemory}"
              dir="${junit.base.dir}"
@@ -2147,6 +2147,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </batchtest>
       </junit>
     </jacoco:coverage>
+	-->
     </then>
     </if>
 

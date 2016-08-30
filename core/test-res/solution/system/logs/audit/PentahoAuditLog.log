@@ -92,3 +92,83 @@
 2015/06/03 11:53:52	empty action sequence test	bb3f4511-0a08-11e5-a39b-7eee3a8b2b77		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_start	start			0.0
 2015/06/03 11:53:52	empty action sequence test	bb3f4511-0a08-11e5-a39b-7eee3a8b2b77		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_end	end			0.0
 2015/06/03 11:53:52	empty action sequence test	system	test1.xaction	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_end	bb3f4511-0a08-11e5-a39b-7eee3a8b2b77			0.04100000113248825
+2016/08/29 22:55:12	234234	2342342342	234234234	String	actor	messageType	messageName	messageTxtValue	2324323.23	23.0
+2016/08/29 22:55:12	2342342	242423	23423423	objType	actor	messageType	messageName	messageTxtValue		23.0
+2016/08/29 22:55:12	2342342	242423	23423423	objType	actor	messageType	messageName		2324323.23	0.0
+2016/08/29 22:55:12	2342342	242423	23423423	objType	actor	messageType	messageName	messageTxtValue		0.0
+2016/08/29 22:55:15	234234	2342342342	234234234	String	actor	messageType	messageName	messageTxtValue	2324323.23	23.0
+2016/08/29 22:55:18					!BaseTest.DEBUG_JUNIT_SESSION!	Type	This is a message	Values		34.0
+2016/08/29 22:55:18	334234		ViewAction	String	admin	Type	This is a message	Values		34.0
+2016/08/29 22:55:18	334234	342323		String	admin	Type	This is a message	Values		34.0
+2016/08/29 22:55:18		342323	ViewAction	String	admin	Type	This is a message	Values		34.0
+2016/08/29 22:55:22	simple output test	system	isOutputParameterTest.xaction	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_start	9c24e7ae-6df8-11e6-9ad8-005056c00001			0.0
+2016/08/29 22:55:22	simple output test	9c24e7ae-6df8-11e6-9ad8-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_start	start			0.0
+2016/08/29 22:55:22	simple output test	9c24e7ae-6df8-11e6-9ad8-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_end	end			0.0
+2016/08/29 22:55:22	simple output test	system	isOutputParameterTest.xaction	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_end	9c24e7ae-6df8-11e6-9ad8-005056c00001			0.05400000140070915
+2016/08/29 22:55:26	empty action sequence test	system	test1a.xaction	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_start	9e7e8f2d-6df8-11e6-88c0-005056c00001			0.0
+2016/08/29 22:55:26	empty action sequence test	9e7e8f2d-6df8-11e6-88c0-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_start	start			0.0
+2016/08/29 22:55:26	empty action sequence test	9e7e8f2d-6df8-11e6-88c0-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	deprecated	org.pentaho.plugin.core.ContentOutputComponent	org.pentaho.platform.plugin.action.deprecated.ContentOutputComponent		0.0
+2016/08/29 22:55:26	empty action sequence test	system	test1a.xaction	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_failed	9e7e8f2d-6df8-11e6-88c0-005056c00001			0.10000000149011612
+2016/08/29 22:55:29	empty action sequence test	system	test1.xaction	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_start	a087ccb8-6df8-11e6-900d-005056c00001			0.0
+2016/08/29 22:55:29	empty action sequence test	a087ccb8-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_start	start			0.0
+2016/08/29 22:55:29	empty action sequence test	a087ccb8-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.solution.PojoComponent	system	component_execution_start	start			0.0
+2016/08/29 22:55:29	empty action sequence test	a087ccb8-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.solution.PojoComponent	system	component_execution_end	end			0.01600000075995922
+2016/08/29 22:55:29	empty action sequence test	a087ccb8-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_end	end			0.02500000037252903
+2016/08/29 22:55:29	empty action sequence test	system	test1.xaction	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_end	a087ccb8-6df8-11e6-900d-005056c00001			0.3659999966621399
+2016/08/29 22:55:29	invalid class setting test	system	test	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_start	a0c94289-6df8-11e6-900d-005056c00001			0.0
+2016/08/29 22:55:29	invalid class setting test	a0c94289-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_start	start			0.0
+2016/08/29 22:55:29	invalid class setting test	system	test	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_failed	a0c94289-6df8-11e6-900d-005056c00001			0.06800000369548798
+2016/08/29 22:55:29	invalid class setting test	system	test	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_start	a0d5778a-6df8-11e6-900d-005056c00001			0.0
+2016/08/29 22:55:29	invalid class setting test	a0d5778a-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_start	start			0.0
+2016/08/29 22:55:29	invalid class setting test	system	test	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_failed	a0d5778a-6df8-11e6-900d-005056c00001			0.00800000037997961
+2016/08/29 22:55:29	invalid class setting test	system	test	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_start	a0d884cb-6df8-11e6-900d-005056c00001			0.0
+2016/08/29 22:55:29	invalid class setting test	a0d884cb-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_start	start			0.0
+2016/08/29 22:55:29	invalid class setting test	a0d884cb-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.solution.PojoComponent	system	component_execution_start	start			0.0
+2016/08/29 22:55:29	invalid class setting test	a0d884cb-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.solution.PojoComponent	system	component_execution_end	end			0.004000000189989805
+2016/08/29 22:55:29	invalid class setting test	a0d884cb-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_end	end			0.004000000189989805
+2016/08/29 22:55:29	invalid class setting test	system	test	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_end	a0d884cb-6df8-11e6-900d-005056c00001			0.019999999552965164
+2016/08/29 22:55:29	invalid class setting test	system	test	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_start	a0de9f4c-6df8-11e6-900d-005056c00001			0.0
+2016/08/29 22:55:29	invalid class setting test	a0de9f4c-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_start	start			0.0
+2016/08/29 22:55:29	invalid class setting test	a0de9f4c-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.solution.PojoComponent	system	component_execution_start	start			0.0
+2016/08/29 22:55:29	invalid class setting test	a0de9f4c-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_failed	execution			0.004000000189989805
+2016/08/29 22:55:30	invalid class setting test	system	test	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_failed	a0de9f4c-6df8-11e6-900d-005056c00001			0.02800000086426735
+2016/08/29 22:55:30	empty action sequence test	system	test1a.xaction	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_start	a0e68e8d-6df8-11e6-900d-005056c00001			0.0
+2016/08/29 22:55:30	empty action sequence test	a0e68e8d-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_start	start			0.0
+2016/08/29 22:55:30	empty action sequence test	a0e68e8d-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.solution.PojoComponent	system	component_execution_start	start			0.0
+2016/08/29 22:55:30	empty action sequence test	a0e68e8d-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.solution.PojoComponent	system	component_execution_end	end			0.01600000075995922
+2016/08/29 22:55:30	empty action sequence test	a0e68e8d-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_end	end			0.019999999552965164
+2016/08/29 22:55:30	empty action sequence test	system	test1a.xaction	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_end	a0e68e8d-6df8-11e6-900d-005056c00001			0.0560000017285347
+2016/08/29 22:55:30	empty action sequence test	system	pojo4.xaction	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_start	a0f2274e-6df8-11e6-900d-005056c00001			0.0
+2016/08/29 22:55:30	empty action sequence test	a0f2274e-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_start	start			0.0
+2016/08/29 22:55:30	empty action sequence test	a0f2274e-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.solution.PojoComponent	system	component_execution_start	start			0.0
+2016/08/29 22:55:30	empty action sequence test	a0f2274e-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.solution.PojoComponent	system	component_execution_end	end			0.00800000037997961
+2016/08/29 22:55:30	empty action sequence test	a0f2274e-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_end	end			0.012000000104308128
+2016/08/29 22:55:30	empty action sequence test	system	pojo4.xaction	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_end	a0f2274e-6df8-11e6-900d-005056c00001			0.035999998450279236
+2016/08/29 22:55:30	empty action sequence test	system	pojo5.xaction	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_start	a0f97a4f-6df8-11e6-900d-005056c00001			0.0
+2016/08/29 22:55:30	empty action sequence test	a0f97a4f-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_start	start			0.0
+2016/08/29 22:55:30	empty action sequence test	a0f97a4f-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.solution.PojoComponent	system	component_execution_start	start			0.0
+2016/08/29 22:55:30	empty action sequence test	a0f97a4f-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.solution.PojoComponent	system	component_execution_end	end			0.004000000189989805
+2016/08/29 22:55:30	empty action sequence test	a0f97a4f-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_end	end			0.004000000189989805
+2016/08/29 22:55:30	empty action sequence test	system	pojo5.xaction	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_end	a0f97a4f-6df8-11e6-900d-005056c00001			0.019999999552965164
+2016/08/29 22:55:30	empty action sequence test	system	test1a.xaction	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_start	a0fe5c50-6df8-11e6-900d-005056c00001			0.0
+2016/08/29 22:55:30	empty action sequence test	a0fe5c50-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_start	start			0.0
+2016/08/29 22:55:30	empty action sequence test	a0fe5c50-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.TestPojo1	system	component_execution_start	start			0.0
+2016/08/29 22:55:30	empty action sequence test	a0fe5c50-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.TestPojo1	system	component_execution_end	end			0.012000000104308128
+2016/08/29 22:55:30	empty action sequence test	a0fe5c50-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_end	end			0.01600000075995922
+2016/08/29 22:55:30	empty action sequence test	system	test1a.xaction	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_end	a0fe5c50-6df8-11e6-900d-005056c00001			0.035999998450279236
+2016/08/29 22:55:30	empty action sequence test	system	pojo1b.xaction	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_start	a106c0c1-6df8-11e6-900d-005056c00001			0.0
+2016/08/29 22:55:30	empty action sequence test	a106c0c1-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_start	start			0.0
+2016/08/29 22:55:30	empty action sequence test	a106c0c1-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.solution.PojoComponent	system	component_execution_start	start			0.0
+2016/08/29 22:55:30	empty action sequence test	a106c0c1-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.solution.PojoComponent	system	component_execution_end	end			0.00800000037997961
+2016/08/29 22:55:30	empty action sequence test	a106c0c1-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_end	end			0.012000000104308128
+2016/08/29 22:55:30	empty action sequence test	system	pojo1b.xaction	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_end	a106c0c1-6df8-11e6-900d-005056c00001			0.024000000208616257
+2016/08/29 22:55:30	invalid class setting test	system	test	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_start	a10c3f02-6df8-11e6-900d-005056c00001			0.0
+2016/08/29 22:55:30	invalid class setting test	a10c3f02-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_start	start			0.0
+2016/08/29 22:55:30	invalid class setting test	a10c3f02-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.solution.PojoComponent	system	component_execution_start	start			0.0
+2016/08/29 22:55:30	invalid class setting test	a10c3f02-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.solution.PojoComponent	system	component_execution_failed	failed	Base.ERROR_0002 - ×é¼þÖ´ÐÐÊ§°Ü		0.0
+2016/08/29 22:55:30	invalid class setting test	a10c3f02-6df8-11e6-900d-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_failed	execution			0.004000000189989805
+2016/08/29 22:55:30	invalid class setting test	system	test	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_failed	a10c3f02-6df8-11e6-900d-005056c00001			0.01600000075995922
+2016/08/29 22:55:34	empty action sequence test	system	test1.xaction	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_start	a349371b-6df8-11e6-b385-005056c00001			0.0
+2016/08/29 22:55:34	empty action sequence test	a349371b-6df8-11e6-b385-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_start	start			0.0
+2016/08/29 22:55:34	empty action sequence test	a349371b-6df8-11e6-b385-005056c00001		org.pentaho.platform.engine.services.runtime.RuntimeContext	system	action_sequence_end	end			0.0
+2016/08/29 22:55:34	empty action sequence test	system	test1.xaction	org.pentaho.platform.engine.services.solution.SolutionEngine	system	instance_end	a349371b-6df8-11e6-b385-005056c00001			0.035999998450279236
