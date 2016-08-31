@@ -52,17 +52,23 @@
 	</bean>
   
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+		<!--
 		<property name="driverClassName" value="${datasource.driver.classname}" />
 		<property name="url" value="${datasource.url}" />
 		<property name="username" value="${datasource.username}" />
 		<property name="password" value="${datasource.password}" />
-		<!-- the following are optional -->
 		<property name="validationQuery" value="${datasource.validation.query}" />
 		<property name="maxWait" value="${datasource.pool.max.wait}" />
 		<property name="maxActive" value="${datasource.pool.max.active}" />
 		<property name="maxIdle" value="${datasource.max.idle}" />
 		<property name="minIdle" value="${datasource.min.idle}" />
+		-->
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://127.0.0.1:3306/hibernate" />
+		<property name="username" value="hibuser" />
+		<property name="password" value="password" />
 	</bean>
+	
 	
 	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 		<property name="location" value="applicationContext-spring-security-jdbc.properties" />
