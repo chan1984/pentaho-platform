@@ -45,7 +45,11 @@ http://www.pentaho.com/schema/pentaho-system http://www.pentaho.com/schema/penta
   <import resource="adminPlugins.xml" />
   <import resource="systemListeners.xml" />
   <import resource="repository.spring.xml" />
-  <import resource="applicationContext-spring-security.xml" />
+  <!-- <import resource="applicationContext-spring-security.xml" /> -->
+  
+  <!-- SpringSecurity SSO 集成  2016.09.06 micheal -->
+  <import resource="applicationContext-spring-security-cas.xml" />
+  
   <import resource="applicationContext-spring-security-superuser.xml" />
   <import resource="applicationContext-pentaho-security-superuser.xml" />
   
